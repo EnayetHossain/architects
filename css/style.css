@@ -384,7 +384,7 @@ footer {
 }
 
 /* responsive design for mobile */
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
     .navigation,
     .menu-items {
@@ -450,5 +450,29 @@ footer {
 
     form {
         max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 922px) {
+    .feature-info {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .feature-detail-section {
+        flex-direction: column;
+    }
+
+    .feature-details-image,
+    .feature-details {
+        max-width: 100%;
+    }
+
+    .facts-info {
+        max-width: 80%;
+    }
+
+    form {
+        max-width: 80%;
     }
 }
